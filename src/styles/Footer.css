@@ -1,13 +1,12 @@
-/* src/styles/Body.css */
+/* src/styles/Footer.css */
 
-p {
-   text-align: center;
-}
 
+  
 /* - - - -  class  - - - - - */  
-.card {
-    width: 18rem;
+.foot {
+   margin-bottom: 5%;
 }
+
   
 /* - - - -  id  - - - - - */
 
