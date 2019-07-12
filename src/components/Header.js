@@ -2,7 +2,7 @@
 
 import React from "react";
 import "../styles/Header.css"
-import f1 from "../images/f1.jpg";
+import f1 from "../img/f1.jpg";
 
 function Header() {
   return (

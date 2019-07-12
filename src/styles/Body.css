@@ -1,24 +1,12 @@
-/* src/styles/Header.css */
+/* src/styles/Body.css */
 
-h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-    text-align: center;
-}
 
-  
 /* - - - -  class  - - - - - */  
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    margin: auto;
-  }
-
+.card {
+    width: 18rem;
+}
   
 /* - - - -  id  - - - - - */
-#imgBB {
-    max-width: 80%;
-}
 
 
 /* - - -  Media Queries  - - - */
@@ -29,7 +17,4 @@ h1 {
 }
 
 @media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical. PC: 125% - 500% zoom en Chrome  */
-    #imgBB {
-        max-width: 95%;
-    }
 }
