@@ -1,11 +1,13 @@
-/* src/styles/Body.css */
+/* src/styles/style.css */
 
-p {
-   text-align: center;
-}
 
 /* - - - -  class  - - - - - */  
-
+.card-group {
+   position: relative;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 /* - - - -  id  - - - - - */
 
