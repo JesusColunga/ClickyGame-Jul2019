@@ -27,7 +27,7 @@ class App extends Component {
       return (
          <div>
             <Header />
-            <Body addScore={this.addScore} resetScore={this.resetScore} />
+            <Body addScore={this.addScore} resetScore={this.resetScore} score={this.state.score} />
             <Footer score={this.state.score} topScore={this.state.topScore} />
          </div>    
       );

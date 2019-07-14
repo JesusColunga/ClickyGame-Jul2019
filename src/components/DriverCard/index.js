@@ -1,7 +1,6 @@
 /* src/components/DriverCard/index.js */
 
 import React, { Component } from "react";
-//import "../style.css"
 
 class DriverCard extends Component {
    constructor(props) {

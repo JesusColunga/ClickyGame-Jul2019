@@ -26,14 +26,21 @@ class Body extends Component {
 
    changeDriverState = (driverId) => {
       let reset = false;
+      let message = "";
       let newArr = 
          this.state.arrObjDrivers.map (
             driver => {
                if (driver.name === driverId) {
                   if (driver.selected) {
                      reset = true;
+                     message = "You clicked the image twice ! ! ! ";
                   } else {
-                     driver.selected = true;
+                     if (this.props.score === 19) {
+                        reset = true;
+                        message = "Great! You won ! ! ! ";
+                     } else {
+                        driver.selected = true;
+                     }
                      this.props.addScore ();
                   }
                }
@@ -42,7 +49,7 @@ class Body extends Component {
          );
 
       if (reset) {
-         alert("You clicked the image twice ! ! ! ");
+         alert(message);
          newArr = 
             this.state.arrObjDrivers.map (
                driver => {

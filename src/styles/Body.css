@@ -8,16 +8,3 @@ p {
 .body {
    margin-bottom: 5%;
 }
-
-/* - - - -  id  - - - - - */
-
-
-/* - - -  Media Queries  - - - */
-@media only screen and (max-width: 980px) {   /* PC: 110 - 125% zoom en Chrome */
-}
-
-@media only screen and (max-width: 768px) {   /* Aplica a mi celular horizontal y ipad vertical. PC: 150% zoom en Chrome  */
-}
-
-@media only screen and (max-width: 640px) {   /* Aplica a mi celular vertical. PC: 125% - 500% zoom en Chrome  */
-}
