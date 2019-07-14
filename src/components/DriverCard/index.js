@@ -12,15 +12,12 @@ class DriverCard extends Component {
    }
 
    changeState = () => {
-      this.state.selected ?
-         this.props.shuffleDriversArr() :
-         this.setState({ selected: true });
+      this.props.changeDriverState (this.props.driv);
    };
 
    render() {
       return (
          <div className="card" key={this.props.driv}>
-            {this.state.selected ? "Seleccionado" : "No seleccionado"}
             <button onClick={this.changeState} >
                <img src={"./images/" + this.props.driv} className="card-img-top" alt={this.props.driv}></img>
             </button>

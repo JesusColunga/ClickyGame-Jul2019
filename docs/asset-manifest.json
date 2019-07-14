@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ClickyGame-Jul2019/static/css/main.740070a9.chunk.css",
-    "main.js": "/ClickyGame-Jul2019/static/js/main.824010ba.chunk.js",
-    "main.js.map": "/ClickyGame-Jul2019/static/js/main.824010ba.chunk.js.map",
+    "main.css": "/ClickyGame-Jul2019/static/css/main.e61aa115.chunk.css",
+    "main.js": "/ClickyGame-Jul2019/static/js/main.a1a54318.chunk.js",
+    "main.js.map": "/ClickyGame-Jul2019/static/js/main.a1a54318.chunk.js.map",
     "runtime~main.js": "/ClickyGame-Jul2019/static/js/runtime~main.ff909112.js",
     "runtime~main.js.map": "/ClickyGame-Jul2019/static/js/runtime~main.ff909112.js.map",
-    "static/js/2.775487a6.chunk.js": "/ClickyGame-Jul2019/static/js/2.775487a6.chunk.js",
-    "static/js/2.775487a6.chunk.js.map": "/ClickyGame-Jul2019/static/js/2.775487a6.chunk.js.map",
+    "static/js/2.512a15da.chunk.js": "/ClickyGame-Jul2019/static/js/2.512a15da.chunk.js",
+    "static/js/2.512a15da.chunk.js.map": "/ClickyGame-Jul2019/static/js/2.512a15da.chunk.js.map",
     "index.html": "/ClickyGame-Jul2019/index.html",
-    "precache-manifest.b1710c341ed8c5d5f8d181157fb87310.js": "/ClickyGame-Jul2019/precache-manifest.b1710c341ed8c5d5f8d181157fb87310.js",
+    "precache-manifest.db5a10c54ec3c7e201a5ce4927c89f79.js": "/ClickyGame-Jul2019/precache-manifest.db5a10c54ec3c7e201a5ce4927c89f79.js",
     "service-worker.js": "/ClickyGame-Jul2019/service-worker.js",
-    "static/css/main.740070a9.chunk.css.map": "/ClickyGame-Jul2019/static/css/main.740070a9.chunk.css.map",
+    "static/css/main.e61aa115.chunk.css.map": "/ClickyGame-Jul2019/static/css/main.e61aa115.chunk.css.map",
     "static/media/f1.jpg": "/ClickyGame-Jul2019/static/media/f1.8ecf3a3b.jpg"
   }
 }

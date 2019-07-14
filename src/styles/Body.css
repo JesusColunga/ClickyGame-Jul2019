@@ -5,7 +5,9 @@ p {
 }
 
 /* - - - -  class  - - - - - */  
-
+.body {
+   margin-bottom: 5%;
+}
 
 /* - - - -  id  - - - - - */
 

@@ -9,7 +9,15 @@ function GroupCard(props) {
       <div>
          <div className="card-group">
             {props.drvs.map( driver => 
-               <DriverCard driv={driver} key={driver} shuffleDriversArr={props.shuffleDriversArr} />
+               <DriverCard 
+                  driv={driver.name} 
+                  key={driver.name} 
+                  selected={driver.selected}
+                  shuffleDriversArr={props.shuffleDriversArr} 
+                  addScore={props.addScore} 
+                  resetScore={props.resetScore}
+                  changeDriverState={props.changeDriverState}
+               />
             )}
          </div>
       </div>
